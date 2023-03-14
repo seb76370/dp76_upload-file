@@ -10,7 +10,7 @@ export class NotesEntity  {
   title: string;
 
   @Column('text', { nullable: true, default: null })
-  catégorie: string;
+  categorie: string;
 
   @Column('text')
   description: string;
